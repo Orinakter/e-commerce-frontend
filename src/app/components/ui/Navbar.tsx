@@ -1,9 +1,10 @@
 ;
-import { Home, LogIn,  MessageSquare, ShoppingCart, User } from 'lucide-react';
+import { Boxes, Heart, Home, Info, LogIn,  MessageSquare, Phone, ShoppingCart} from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
 function Navbar() {
+  
   return (
     <header className="bg-base-100 border-b border-base-300 fixed w-full top-0 z-40 backdrop-blur-lg bg-base-100/80">
       <div className="container mx-auto px-4 h-16">
@@ -19,20 +20,36 @@ function Navbar() {
           </div>
 
           {/* Right Side - Buttons */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-4">
             <Link href="/" className="flex items-center btn btn-sm gap-2 transition-colors">
               <Home className="w-4 h-4" />
               <span className="hidden sm:inline">Home</span>
             </Link>
 
             <Link href="/all-products" className="flex items-center btn btn-sm gap-2">
-              <ShoppingCart className="size-5" />
+              <Boxes className="size-5" />
               <span className="hidden sm:inline">All Products</span>
             </Link>
 
-            <Link href="/all-products" className="flex items-center btn btn-sm gap-2">
-              <User className="size-5" />
-              <span className="hidden sm:inline">All Products</span>
+            <Link href="/cart" className="flex items-center btn btn-sm gap-2">
+              <ShoppingCart className="size-5" />
+              <span className="hidden sm:inline">Cart</span>
+            </Link>
+            <Link href="/wish" className="flex items-center btn btn-sm gap-2">
+              <Heart className="size-5" />
+              <span className="hidden sm:inline">Wishlist</span>
+            </Link>
+            <Link href="/about" className="flex items-center btn btn-sm gap-2">
+              <Info className="size-5" />
+              <span className="hidden sm:inline">About</span>
+            </Link>
+            <Link href="/contact" className="flex items-center btn btn-sm gap-2">
+              <Phone className="size-5" />
+              <span className="hidden sm:inline">Contact</span>
+            </Link>
+            <Link href="/dashboard" className="flex items-center btn btn-sm gap-2">
+              <Phone className="size-5" />
+              <span className="hidden sm:inline">Dashboard</span>
             </Link>
 
             <button className="flex gap-2 items-center">

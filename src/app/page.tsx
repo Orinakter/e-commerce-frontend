@@ -1,3 +1,10 @@
+import Banner from "./components/Banner";
+import Navbar from "./components/ui/Navbar";
+
 export default function Home() {
-  return <div>Home page</div>;
-}
+  return (
+    <div>
+     <Banner/>
+    </div>
+  );
+

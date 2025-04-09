@@ -1,5 +1,5 @@
 ;
-import { Boxes, Heart, Home, Info, LogIn,  MessageSquare, Phone, ShoppingCart} from 'lucide-react';
+import { Boxes, Heart, Home, Info, LayoutDashboard, LogIn,  MessageSquare, Phone, ShoppingCart} from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
@@ -48,7 +48,7 @@ function Navbar() {
               <span className="hidden sm:inline">Contact</span>
             </Link>
             <Link href="/dashboard" className="flex items-center btn btn-sm gap-2">
-              <Phone className="size-5" />
+              <LayoutDashboard className="size-5" />
               <span className="hidden sm:inline">Dashboard</span>
             </Link>
 

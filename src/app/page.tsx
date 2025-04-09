@@ -1,5 +1,4 @@
 import Banner from "./components/Banner";
-import Navbar from "./components/ui/Navbar";
 
 export default function Home() {
   return (
@@ -7,4 +6,4 @@ export default function Home() {
      <Banner/>
     </div>
   );
-
+}

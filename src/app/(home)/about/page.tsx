@@ -151,6 +151,26 @@ function Page() {
                 <p>CEO Tesla</p>
               </div>
             </CarouselItem>
+            <CarouselItem className="basis-full">
+              <div className="p-4 border rounded-lg text-center space-y-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo provident in dolorum! Quibusdam nobis, nisi quis nemo repudiandae non laudantium blanditiis error? Voluptates unde illo animi. Culpa quis ut ab!</p>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image src='/elon.jpeg' alt='image' width={200} height={50} className='w-24 h-28 rounded-full'></Image>
+                </div>
+                <h2>Elon Musk</h2>
+                <p>CEO Tesla</p>
+              </div>
+            </CarouselItem>
+            <CarouselItem className="basis-full">
+              <div className="p-4 border rounded-lg text-center space-y-3">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo provident in dolorum! Quibusdam nobis, nisi quis nemo repudiandae non laudantium blanditiis error? Voluptates unde illo animi. Culpa quis ut ab!</p>
+                <div className='flex flex-col justify-center items-center'>
+                  <Image src='/elon.jpeg' alt='image' width={200} height={50} className='w-24 h-28 rounded-full'></Image>
+                </div>
+                <h2>Elon Musk</h2>
+                <p>CEO Tesla</p>
+              </div>
+            </CarouselItem>
           </CarouselContent>
           <CarouselPrevious />
           <CarouselNext />

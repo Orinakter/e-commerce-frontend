@@ -6,6 +6,7 @@ export const Nav3 = () => {
     <div>
       <nav className="flex items-center justify-between px-6 py-4 bg-white ">
         <ul className="flex gap-6 text-sm font-semibold text-gray-800">
+<<<<<<< HEAD
           <li className="relative group cursor-pointer">
             <span>Home</span>
 
@@ -48,6 +49,20 @@ export const Nav3 = () => {
               <FaCartShopping />
             </span>
 
+=======
+          <li>Home</li>
+          <li>All Product</li>
+          <li>About</li>
+          <li>Contact Us</li>
+        </ul>
+
+        <div className="flex items-center gap-2 text-gray-800">
+          <div className="flex items-center gap-3 relative">
+            <span>
+              <FaCartShopping />
+            </span>
+
+>>>>>>> 12d6e0e5f80e03bb6650c2d0fb1a96d1dd82be9b
             <span className="absolute -top-2 -right-2  text-white bg-yellow-500 w-5 h-5 flex items-center justify-center rounded-full font-bold">
               0
             </span>

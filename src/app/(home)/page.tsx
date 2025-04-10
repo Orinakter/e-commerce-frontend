@@ -1,5 +1,7 @@
 import React from 'react';
 import { BannerSection } from '../components/ui/BannerSection';
+import HotProducts from '../components/ui/HotProducts';
+import NewArrived from '../components/ui/NewArrived';
 
 
 
@@ -7,7 +9,8 @@ const page = () => {
   return (
     <div>
       <BannerSection/>
-      {/* <HeroSlider></HeroSlider> */}
+     <HotProducts/>
+     <NewArrived/>
     </div>
   );
 };

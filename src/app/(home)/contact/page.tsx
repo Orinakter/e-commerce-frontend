@@ -1,13 +1,32 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 function page() {
   return (
-    <div>
+    <div className='container mx-auto'>
+      {/* <section className="bg-blue-50 py-10">
+        <div className="container mx-auto text-center">
+          <h1 className="text-4xl font-bold text-gray-800">Get in Touch</h1>
+          <p className="mt-2 text-gray-600">
+            We'd love to hear from you. Please fill out the form below and we'll get back to you shortly.
+          </p>
+        </div>
+      </section> */}
+
+      <div className='my-5 flex gap-4'>
+        <Link
+          href="/"
+          className="inline-flex items-center gap-2 text-gray-500 "
+        >
+          Home
+        </Link>/ <p className='text-amber-500'>Contact</p>
+      </div>
+
       {/* contact us section */}
       <section
         id="contact"
-        className="font-Cinzel h-auto p-10 bg-white text-gray-800"
+        className=" h-auto p-10 bg-white text-gray-800"
       >
         <div className="text-center mb-8">
           <p className="text-gray-500">Contact</p>
@@ -91,7 +110,7 @@ function page() {
 
               <button
                 type="submit"
-                className="w-full bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition duration-300"
+                className="w-full bg-[#F0B100] text-white p-3 rounded-lg hover:bg-amber-300 transition duration-300"
               >
                 SEND MESSAGE
               </button>

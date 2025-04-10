@@ -37,6 +37,12 @@ export const Nav2 = () => {
             <PiSignIn />
           </span>SignIn</button>
           </Link>
+          <button className="btn">
+            <span className="">
+              <PiSignIn />
+            </span>
+            SignIn
+          </button>
         </div>
       </div>
     </div>

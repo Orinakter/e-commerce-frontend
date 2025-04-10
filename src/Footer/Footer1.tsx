@@ -5,7 +5,7 @@ import { FaArrowUp, FaFacebookF, FaGoogle, FaInstagram, FaTwitter } from "react-
 export const Footer1 = () => {
   return (
     <div>
-      <footer className="bg-white py-12 border-t border-gray-100">
+      <footer className="bg-gray-100 py-12 border-t border-gray-100">
         <div className="container mx-auto px-6 grid md:grid-cols-3 gap-10">
           {/* Left Column */}
           <div>

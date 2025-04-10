@@ -25,12 +25,12 @@ export const Nav2 = () => {
         </div>
 
         <div className="flex justify-end items-center gap-3 w-full">
-          
-
-          <button className="btn"><span className="">
-            {" "}
-            <PiSignIn />
-          </span>SignIn</button>
+          <button className="btn">
+            <span className="">
+              <PiSignIn />
+            </span>
+            SignIn
+          </button>
         </div>
       </div>
     </div>

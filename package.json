@@ -19,6 +19,7 @@
     "firebase": "^11.6.0",
 
     "embla-carousel-react": "^8.6.0",
+
     "daisyui": "^5.0.17",
 
     "lucide-react": "^0.487.0",
@@ -38,6 +39,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "daisyui": "^5.0.18",
     "eslint": "^9",
     "eslint-config-next": "15.2.4",
     "tailwindcss": "^4.1.3",

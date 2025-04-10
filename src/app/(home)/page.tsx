@@ -4,6 +4,8 @@ import HotProducts from '../components/ui/HotProducts';
 import NewArrived from '../components/ui/NewArrived';
 import PopularCategories from '../components/ui/PopularCategories';
 import GadgetBanner from '../components/ui/GadgetBanner';
+import FeatureProduct from '../components/ui/FeatureProduct';
+import FAQ from '../components/ui/FAQ';
 
 
 
@@ -15,6 +17,8 @@ const page = () => {
      <NewArrived/>
      <PopularCategories/>
      <GadgetBanner/>
+     <FeatureProduct/>
+     <FAQ/>
     </div>
   );
 };

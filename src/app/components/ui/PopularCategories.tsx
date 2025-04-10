@@ -75,7 +75,7 @@ const PopularCategories = () => {
                 />
               </div>
               <h3 className="text-xl font-medium text-gray-700">
-                Accessories & Parts
+              Gadget and Accessories
               </h3>
             </div>
 

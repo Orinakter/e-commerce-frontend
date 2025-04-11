@@ -25,6 +25,6 @@ export const Nav1 = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };

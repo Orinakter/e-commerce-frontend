@@ -18,7 +18,8 @@ const images = [
 
 export const BannerSection = () => {
   return (
-    <div className="w-full aspect-[16/6]">
+
+    <div className="w-full aspect-[16/6] mx-auto">
       <Swiper
         slidesPerView={1}
         spaceBetween={0}

@@ -27,7 +27,6 @@ export const Nav3 = () => {
             <span className="text-2xl">
               <FaCartShopping />
             </span>
-
             <span className="absolute -top-2 -right-2  text-white bg-yellow-500 w-5 h-5 flex items-center justify-center rounded-full font-bold">
               0
             </span>

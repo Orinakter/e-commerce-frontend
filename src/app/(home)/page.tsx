@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BannerSection } from '../components/ui/BannerSection';
 import HotProducts from '../components/ui/HotProducts';

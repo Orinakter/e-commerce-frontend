@@ -3,20 +3,20 @@ import React from "react";
 
 const NewArrived = () => {
   return (
-    <div>
+    <div className="container mx-auto px-4 bg-gray-50">
       <section className="px-6 py-12 bg-white">
         <h2 className="text-3xl font-bold mb-6">New Arrivals</h2>
 
         {/* Tabs */}
         <div className="flex gap-4 mb-8">
           <button className="px-4 py-1 border border-yellow-500 text-yellow-600 font-semibold rounded-full">
-          Clothes
+            Clothes
           </button>
           <button className="px-4 py-1 text-gray-600 hover:text-yellow-600">
             Beauty & Health
           </button>
           <button className="px-4 py-1 text-gray-600 hover:text-yellow-600">
-          Gadget and Accessories
+            Gadget and Accessories
           </button>
         </div>
 
@@ -39,7 +39,7 @@ const NewArrived = () => {
             <div className="mt-4">
               <p className="text-sm text-gray-500">Beauty & Health</p>
               <h3 className="font-semibold text-gray-800">
-              BS-MALL Makeup Brushes Premium
+                BS-MALL Makeup Brushes Premium
               </h3>
               <p className="mt-2 text-lg font-bold text-red-600">$79.00</p>
             </div>
@@ -62,13 +62,13 @@ const NewArrived = () => {
             <div className="mt-4">
               <p className="text-sm text-gray-500"> Clothes</p>
               <h3 className="font-semibold text-gray-800">
-              Black Minimalist T-Shirt
+                Black Minimalist T-Shirt
               </h3>
               <p className="mt-2 text-lg font-bold text-red-600">$79.00</p>
             </div>
           </div>
 
-          {/* Product 3 - Sale + Timer */}
+          {/* Product 3  */}
           <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition bg-white relative">
             <div className="relative">
               <Image
@@ -87,16 +87,13 @@ const NewArrived = () => {
             <div className="mt-4">
               <p className="text-sm text-gray-500"> Beauty & Health</p>
               <h3 className="font-semibold text-gray-800">
-              Sunset Bloom Palette
+                Sunset Bloom Palette
               </h3>
-              <p className="mt-2 text-lg text-red-600 font-bold">
-                $39.00{" "}
-                
-              </p>
+              <p className="mt-2 text-lg text-red-600 font-bold">$39.00 </p>
             </div>
           </div>
 
-          {/* Product 4 - Sale + Timer */}
+          {/* Product 4*/}
           <div className="border rounded-lg p-4 shadow-sm hover:shadow-md transition bg-white relative">
             <div className="relative">
               <Image
@@ -115,12 +112,9 @@ const NewArrived = () => {
             <div className="mt-4">
               <p className="text-sm text-gray-500">Gadget and Accessories</p>
               <h3 className="font-semibold text-gray-800">
-              Samsung S22 Ulta Pro
+                Samsung S22 Ulta Pro
               </h3>
-              <p className="mt-2 text-lg text-red-600 font-bold">
-                $39.00{" "}
-                
-              </p>
+              <p className="mt-2 text-lg text-red-600 font-bold">$39.00 </p>
             </div>
           </div>
 
@@ -140,9 +134,7 @@ const NewArrived = () => {
             </div>
             <div className="mt-4">
               <p className="text-sm text-gray-500"> Beauty & Health</p>
-              <h3 className="font-semibold text-gray-800">
-              Blush Blossom
-              </h3>
+              <h3 className="font-semibold text-gray-800">Blush Blossom</h3>
               <p className="mt-2 text-lg font-bold text-red-600">$29.00</p>
             </div>
           </div>

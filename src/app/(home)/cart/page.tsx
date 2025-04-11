@@ -31,7 +31,7 @@ function page() {
                 <p className="text-gray-600 mt-1">Price: <span className="text-gray-800 font-medium">$12</span></p>
               </div>
 
-              {/* Extra Fields */}
+              {/* quantity Fields */}
               <div className="flex items-center gap-4 mt-4">
                 <div>
                   <label className="text-sm text-gray-500 mb-1 block">Quantity</label>
